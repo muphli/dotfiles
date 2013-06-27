@@ -10,6 +10,9 @@ chflags nohidden ~/Library
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
+# Finder: Show hidden files
+# defaults write com.apple.Finder AppleShowAllFiles YES
+
 # Safari: Setup for development
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
 defaults write com.apple.Safari IncludeDevelopMenu -bool true

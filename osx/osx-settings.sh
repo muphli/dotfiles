@@ -120,6 +120,9 @@ defaults write com.apple.dock no-glass -bool true
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+# No dock delay
+defaults write com.apple.Dock autohide-delay -float 0
+
 
 
 ##### Gatekeeper #####

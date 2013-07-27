@@ -11,13 +11,13 @@ chflags nohidden ~/Library
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
-# Finder: show all filename extensions
+# Show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Finder: show path bar
-defaults write com.apple.finder ShowPathbar -bool true
+# Show path in title bar
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
-# Finder: allow text selection in Quick Look
+# Allow text selection in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool true
 
 # When performing a search, search the current folder by default
@@ -96,13 +96,6 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 
 # Disable local Time Machine backups
 hash tmutil &> /dev/null && sudo tmutil disablelocal
-
-
-
-##### AirDrop #####
-
-# Use it over every network interface
-defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 
 
 

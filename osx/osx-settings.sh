@@ -1,8 +1,9 @@
 # !/usr/bin/env bash
 
 
-
+######################
 ##### Finder.app #####
+######################
 
 # Show ~/Library
 chflags nohidden ~/Library
@@ -33,22 +34,25 @@ defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
 # defaults write com.apple.Finder AppleShowAllFiles YES
 
 
-
+####################
 ##### Mail.app #####
+####################
 
 # Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
 defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
 
 
-
-##### Printer.app ######
+#######################
+##### Printer.app #####
+#######################
 
 # Automatically quit printer app once the print jobs complete
 defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 
-
+######################
 ##### Safari.app #####
+######################
 
 # Setup for development
 defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
@@ -70,15 +74,17 @@ defaults write com.apple.Safari DebugSnapshotsUpdatePolicy -int 2
 defaults write com.apple.Safari FindOnPageMatchesWordStartsOnly -bool false
 
 
-
+########################
 ##### Terminal.app #####
+########################
 
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
 
 
-
+########################
 ##### TextEdit.app #####
+########################
 
 # Use plain text mode for new TextEdit documents
 defaults write com.apple.TextEdit RichText -int 0
@@ -88,8 +94,9 @@ defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
 
-
+############################
 ##### Time Machine.app #####
+############################
 
 # Prevent Time Machine from prompting to use new hard drives as backup volume
 defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
@@ -98,8 +105,9 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 hash tmutil &> /dev/null && sudo tmutil disablelocal
 
 
-
+################
 ##### Dock #####
+################
 
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
@@ -117,26 +125,29 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.Dock autohide-delay -float 0
 
 
-
+######################
 ##### Gatekeeper #####
+######################
 
 # No Limitations
 spctl --master-disable
 
 
-
+####################
 ##### Menu bar #####
+####################
 
 # Disable transparency
 defaults write NSGlobalDomain AppleEnableMenuBarTransparency -bool false
 
 # Show remaining battery time (on pre-10.8); hide percentage
-defaults write com.apple.menuextra.battery ShowPercent -string "NO"
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 defaults write com.apple.menuextra.battery ShowTime -string "YES"
 
 
-
+##################
 ##### System #####
+##################
 
 # Disable opening and closing window animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false

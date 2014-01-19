@@ -1,7 +1,10 @@
 #Usage
 
-**Important:** Read comments in osx-settings.sh first!
+**Important:** Read comments in osx-settings.sh/setup.sh first!
 
 ```git clone git@github.com:muphli/dotfiles.git```  
 ```cd dotfiles/osx```  
 ```sh osx-settings.sh```
+```cd dotfiles/osx```  
+```sh setup.sh```
+

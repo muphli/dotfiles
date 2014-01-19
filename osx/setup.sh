@@ -17,6 +17,7 @@ brew cask install flow
 brew cask install openemu
 brew cask install things
 brew cask install alfred
+brew cask install f-lux
 
 #Configures Alfred to add applications-directory to search scope
 brew cask alfred link

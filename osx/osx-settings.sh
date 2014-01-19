@@ -112,6 +112,9 @@ spctl --master-disable
 ##### System #####
 ##################
 
+# Enable AirDrop over Ethernet
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+
 # Disable opening and closing window animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 

@@ -22,3 +22,7 @@ brew cask install teamviewer
 
 #Configures Alfred to add applications-directory to search scope
 brew cask alfred link
+
+#Configures Git
+git config --global user.email "hallo@muph.li"
+git config --global user.name "muphli"	

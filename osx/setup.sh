@@ -19,6 +19,7 @@ brew cask install things
 brew cask install alfred
 brew cask install f-lux
 brew cask install teamviewer
+brew cask install keyboard-cleaner
 
 #Configures Alfred to add applications-directory to search scope
 brew cask alfred link

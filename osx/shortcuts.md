@@ -11,7 +11,9 @@
 *Finder*
 
 - **shift + cmd + delete**: Papierkorb leeren
-- **shift + cmd + n**: Neuer Ordner im aktuellen Verzeichnis
+- **shift + cmd + n**: Neuer Ordner im aktuellen 
+Verzeichnis
+- **shift + cmd + G**: Gehe zum Ordner
 - **space**: Datei mit Quicklook öffnen
 - **alt + space**: Datei mit Quicklook öffnen (Fullscreen)
 
@@ -21,3 +23,7 @@
 - **cmd + t**: Neuer Tab
 - **cmd + Linksklick auf Link**: Link in neuem Tab öffnen
 - **cmd + Klick auf Vor-/Zurückbutton**: Nächste oder vorherige Seite in neuem Tab öffnen
+
+*1Password*
+
+- **shift + cmd + c**: Passwort des ausgewählten Logins in Zwischenablage

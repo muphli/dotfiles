@@ -5,6 +5,5 @@
 ```git clone git@github.com:muphli/dotfiles.git```  
 ```cd dotfiles/osx```  
 ```sh osx-settings.sh```
-```cd dotfiles/osx```  
 ```sh setup.sh```
 

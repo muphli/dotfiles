@@ -10,11 +10,9 @@ brew install brew-cask
 #Installs Applications
 brew cask install dropbox
 brew cask install onepassword
-brew cask install google-chrome
 brew cask install chocolat
 brew cask install fantastical
 brew cask install flow
-brew cask install openemu
 brew cask install things
 brew cask install alfred
 brew cask install f-lux

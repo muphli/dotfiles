@@ -16,6 +16,16 @@ brew cask install flow
 brew cask install things
 brew cask install alfred
 brew cask install f-lux
+brew cask install teamviewer
+brew cask install keyboard-cleaner
+brew cask install mou
+brew cask install delivery-status
+brew cask install instacast
+brew cask install xbox360-controller-driver
 
 #Configures Alfred to add applications-directory to search scope
 brew cask alfred link
+
+#Configures Git
+git config --global user.email "hallo@muph.li"
+git config --global user.name "muphli"	

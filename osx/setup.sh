@@ -1,5 +1,8 @@
 # !/usr/bin/env bash
 
+#Installs Xcode Command Line Tools
+xcode-select --install
+
 #Installs Homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
